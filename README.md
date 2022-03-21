@@ -20,7 +20,7 @@ function (user){
 | Input               | Output                                                                         |
 | ------------------- | ------------------------------------------------------------------------------ |
 | `"Kurt"` (inactive) | `"Hey CreepyKurt! Would you like to renew your subscription?"`                 |
-| `"Kyle"` (inactive) | `"Hey Kyle Coberly! Would you like to renew your subscription?"`               | 
+| `"Kyle"` (inactive) | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`               | 
 | `"Jeb"` (active)    | `"Welcome back, ActiveJeb!"`                                                   | 
 
 <table>
