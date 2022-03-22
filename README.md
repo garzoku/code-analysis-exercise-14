@@ -19,15 +19,15 @@ function (user){
 
 | Input               | Output                                                                         |
 | ------------------- | ------------------------------------------------------------------------------ |
-| `"Kurt"` (inactive) | `"Hey CreepyKurt! Would you like to renew your subscription?"`                 |
-| `"Kyle"` (inactive) | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`               | 
-| `"Jeb"` (active)    | `"Welcome back, ActiveJeb!"`                                                   | 
+| `Kurt` (inactive) | `"Hey CreepyKurt! Would you like to renew your subscription?"`                 |
+| `Kyle` (inactive) | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`               | 
+| `Jeb` (active)    | `"Welcome back, ActiveJeb!"`                                                   | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>1). The function parameter accepts a user's name.<br>
-2). If the user has the property ``isActive``, then the message in the following block is returned.<br>
+    <td>1). The function parameter accepts an object.<br>
+2). If the user object has the property ``isActive``, then the message in the following block is returned.<br>
 3). Else, if the user does not have the ``.isActive`` property, a different a message is returned.<br>
 Summary: This program checks to see if a user has an active account. If they do, they are greeted by their username. If not, they are asked to renew their subscription.
 </td>
