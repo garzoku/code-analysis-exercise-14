@@ -27,8 +27,8 @@ function (user){
   <tr>
     <th>What does this program do?</th>
     <td>1). The function parameter accepts an object.<br>
-2). If the user object has the property ``isActive``, then the message in the following block is returned.<br>
-3). Else, if the user does not have the ``.isActive`` property, a different a message is returned.<br>
+2). If the user object has the value of ``isActive``, then the message in the following block is returned.<br>
+3). Else, if the user does not have the ``.isActive`` value, a different a message is returned.<br>
 Summary: This program checks to see if a user has an active account. If they do, they are greeted by their username. If not, they are asked to renew their subscription.
 </td>
   </tr>
