@@ -17,11 +17,11 @@ function (user){
 }
 ```
 
-| Input               | Output                                                                         |
-| ------------------- | ------------------------------------------------------------------------------ |
-| `Kurt` (inactive) | `"Hey CreepyKurt! Would you like to renew your subscription?"`                 |
-| `Kyle` (inactive) | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`               | 
-| `Jeb` (active)    | `"Welcome back, ActiveJeb!"`                                                   | 
+| Input               | Output                                                             |
+| ------------------- | ------------------------------------------------------------------ |
+| `Kurt`  | `"Hey CreepyKurt! Would you like to renew your subscription?"`                 |
+| `Kyle`  | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`             | 
+| `Jeb`   | `"Welcome back, ActiveJeb!"`                                                   | 
 
 <table>
   <tr>
