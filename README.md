@@ -17,11 +17,11 @@ function (user){
 }
 ```
 
-| Input               | Output                                                             |
-| ------------------- | ------------------------------------------------------------------ |
-| `Kurt`  | `"Hey CreepyKurt! Would you like to renew your subscription?"`                 |
-| `Kyle`  | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`             | 
-| `Jeb`   | `"Welcome back, ActiveJeb!"`                                                   | 
+| Input                                                 | Output                                                            |
+| ----------------------------------------------------- | ----------------------------------------------------------------- |
+| `Kurt = { isActive: false, username: 'CreepyKurt'}`   | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
+| `Kyle = { isActive: false, username: 'KnifeBladeKyle'}`| `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
+| `Jeb = { isActive: true, username: 'ActiveJeb' }`     | `"Welcome back, ActiveJeb!"`                                       |            
 
 <table>
   <tr>
