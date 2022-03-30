@@ -16,12 +16,11 @@ function (user){
   }
 }
 ```
-
-| Input                                                 | Output                                                            |
-| ----------------------------------------------------- | ----------------------------------------------------------------- |
-| `Kurt = { isActive: false, username: 'CreepyKurt'}`   | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
-| `Kyle = { isActive: false, username: 'KnifeBladeKyle'}`| `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
-| `Jeb = { isActive: true, username: 'ActiveJeb' }`     | `"Welcome back, ActiveJeb!"`                                       |            
+| Input       |    Output                                                        |
+|-------------|------------------------------------------------------------------| 
+| `user.kurt` | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
+| `user.kyle` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
+| `user.jeb`  | `"Welcome back, ActiveJeb!"`                                      |            
 
 <table>
   <tr>
