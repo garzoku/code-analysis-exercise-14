@@ -18,9 +18,9 @@ function (user){
 ```
 | Input       |    Output                                                        |
 |-------------|------------------------------------------------------------------| 
-| `user.kurt` | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
-| `user.kyle` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
-| `user.jeb`  | `"Welcome back, ActiveJeb!"`                                      |            
+| `{ name: "Kurt" }` | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
+| `[ name: "Kyle" }` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
+| `{ name: "Jeb" }`  | `"Welcome back, ActiveJeb!"`                                      |            
 
 <table>
   <tr>
