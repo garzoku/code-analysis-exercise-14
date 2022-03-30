@@ -19,7 +19,7 @@ function (user){
 | Input       |    Output                                                        |
 |-------------|------------------------------------------------------------------| 
 | `{ name: "Kurt" }` | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
-| `[ name: "Kyle" }` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
+| `{ name: "Kyle" }` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
 | `{ name: "Jeb" }`  | `"Welcome back, ActiveJeb!"`                                      |            
 
 <table>
