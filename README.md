@@ -18,9 +18,9 @@ function (user){
 ```
 | Input       |    Output                                                        |
 |-------------|------------------------------------------------------------------| 
-| `{ name: "Kurt" }` | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
-| `{ name: "Kyle" }` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
-| `{ name: "Jeb" }`  | `"Welcome back, ActiveJeb!"`                                      |            
+| `{Kurt: {isActive: false, username: 'CreepyKurt'}}` | `"Hey CreepyKurt! Would you like to renew your subscription?"`    |           
+| `{Kyle: {isActive: false, username: 'KnifeBladeKyle'}}` | `"Hey KnifeBladeKyle! Would you like to renew your subscription?"`|        
+| `{Jeb: {isActive: true, username: 'ActiveJeb'}}`  | `"Welcome back, ActiveJeb!"`                                      |            
 
 <table>
   <tr>
